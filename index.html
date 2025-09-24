@@ -47,4 +47,26 @@
   <style>
     h2 {color:blue;}
   </style>
+<head>
+<style>
+  .flex-container {
+    display: flex;
+    align-items: center; 
+    gap: 50;
+  }
+  .flex-container img {
+    flex-shrink: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="flex-container">
+    <img src="your-image.jpg" alt="Description of your image">
+    <p>
+      This is the text that will appear to the right of the image. By using `display: flex;` on the container,
+      we can easily place the image and text side-by-side. The `align-items: center;` property ensures
+      they are vertically aligned.
+    </p>
+  </div>
+</body>
 </html>
